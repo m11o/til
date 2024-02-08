@@ -1,188 +1,186 @@
 <?xml version="1.0"?>
 <!DOCTYPE instance-profile PUBLIC "SYSTEM" "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 <instance-profile id="til" name="til" start-page="starter-topic.md">
-  <toc-element topic="root.md">
-    <toc-element topic="architecture.md">
-      <toc-element topic="thinking-validation-in-layered-architecture.md"/>
+  <toc-element topic="starter-topic.md"/>
+  <toc-element topic="architecture.md">
+    <toc-element topic="thinking-validation-in-layered-architecture.md"/>
+  </toc-element>
+  <toc-element topic="aws.md">
+    <toc-element topic="replace-ec2-to-ecs.md"/>
+  </toc-element>
+  <toc-element topic="books.md">
+    <toc-element topic="understanding_computation.md"/>
+    <toc-element topic="データベースの基礎.md"/>
+    <toc-element topic="世界一流エンジニアの思考法.md"/>
+    <toc-element topic="自省録.md"/>
+  </toc-element>
+  <toc-element topic="commands.md">
+    <toc-element topic="grep.md">
+      <toc-element topic="command-removing-unused-branches.md"/>
     </toc-element>
-    <toc-element topic="aws.md">
-      <toc-element topic="replace-ec2-to-ecs.md"/>
+  </toc-element>
+  <toc-element topic="database.md">
+    <toc-element topic="firestore.md">
+      <toc-element topic="add-security-rules.md"/>
+      <toc-element topic="construction-database-scheme.md"/>
+      <toc-element topic="emulator-for-docker.md"/>
+      <toc-element topic="emulator-for-local.md"/>
+      <toc-element topic="where-documents.md"/>
     </toc-element>
-    <toc-element topic="books.md">
-      <toc-element topic="understanding_computation.md"/>
-      <toc-element topic="&#x30C7;&#x30FC;&#x30BF;&#x30D9;&#x30FC;&#x30B9;&#x306E;&#x57FA;&#x790E;.md"/>
-      <toc-element topic="&#x4E16;&#x754C;&#x4E00;&#x6D41;&#x30A8;&#x30F3;&#x30B8;&#x30CB;&#x30A2;&#x306E;&#x601D;&#x8003;&#x6CD5;.md"/>
-      <toc-element topic="&#x81EA;&#x7701;&#x9332;.md"/>
+    <toc-element topic="locking-for-rdbms.md"/>
+    <toc-element topic="mysql.md">
+      <toc-element topic="case-sensitive.md"/>
+      <toc-element topic="null-comparison-in-where-clause.md"/>
     </toc-element>
-    <toc-element topic="codeReading.md">
-      <toc-element topic="ruby.md">
-        <toc-element topic="rbs.md"/>
+  </toc-element>
+  <toc-element topic="docker.md">
+    <toc-element topic="multi-staged-build.md"/>
+  </toc-element>
+  <toc-element topic="english.md">
+    <toc-element topic="listening.md"/>
+    <toc-element topic="speaking.md"/>
+    <toc-element topic="vocabularies.md"/>
+  </toc-element>
+  <toc-element topic="gcp.md">
+    <toc-element topic="gcp-basic-info.md"/>
+    <toc-element topic="DepelogingApplicationWithGoogleClound.md">
+      <toc-element topic="memo.md"/>
+    </toc-element>
+    <toc-element topic="GoogleCloudFundamentals.md">
+      <toc-element topic="about-app-engine.md"/>
+      <toc-element topic="about-google-cloud.md"/>
+      <toc-element topic="about-logging-and-monitoring.md"/>
+      <toc-element topic="cloud-storage.md"/>
+      <toc-element topic="container-for-cloud.md"/>
+      <toc-element topic="deployment-for-cloud.md"/>
+      <toc-element topic="resource-and-access-for-cloud.md"/>
+      <toc-element topic="virtual-machine-and-network-for-cloud.md"/>
+    </toc-element>
+    <toc-element topic="SecuringAndIntegratingComponentsOfYourApplication.md"/>
+    <toc-element topic="base-big-query.md"/>
+    <toc-element topic="ci-cd.md"/>
+    <toc-element topic="database-service.md"/>
+    <toc-element topic="pcd_manual.md"/>
+    <toc-element topic="trial_exam.md">
+      <toc-element topic="formal_trial_exam.md"/>
+      <toc-element topic="pcd_vol1.md"/>
+      <toc-element topic="pcd_vol2.md"/>
+      <toc-element topic="pcd_vol3.md"/>
+    </toc-element>
+  </toc-element>
+  <toc-element topic="git.md">
+    <toc-element topic="actions.md">
+      <toc-element topic="changed-files.md"/>
+      <toc-element topic="mysql-on-rails-ci.md"/>
+    </toc-element>
+    <toc-element topic="command.md"/>
+    <toc-element topic="the-fast-version-control-system-git.md"/>
+  </toc-element>
+  <toc-element topic="golang.md">
+    <toc-element topic="array-vs-slice.md"/>
+    <toc-element topic="context.md"/>
+    <toc-element topic="delete-element-in-slice.md"/>
+    <toc-element topic="inheritence.md"/>
+    <toc-element topic="pointers.md"/>
+    <toc-element topic="printf.md"/>
+    <toc-element topic="random-string.md"/>
+    <toc-element topic="render-json-by-net-http.md"/>
+  </toc-element>
+  <toc-element topic="infra.md">
+    <toc-element topic="different-between-http-and-tcp.md"/>
+  </toc-element>
+  <toc-element topic="ios.md">
+    <toc-element topic="test.md"/>
+  </toc-element>
+  <toc-element topic="kubernetes.md">
+    <toc-element topic="about-kubernetes-cluster.md"/>
+  </toc-element>
+  <toc-element topic="nextjs.md">
+    <toc-element topic="not-found.md"/>
+    <toc-element topic="use-client.md"/>
+  </toc-element>
+  <toc-element topic="rails.md">
+    <toc-element topic="1pt1yen-reset-point-demo.md"/>
+    <toc-element topic="activestorage.md"/>
+    <toc-element topic="attr-internal.md"/>
+    <toc-element topic="code-reading.md">
+      <toc-element topic="process-request.md"/>
+    </toc-element>
+    <toc-element topic="config_for.md"/>
+    <toc-element topic="filtering-secret-parameters.md"/>
+    <toc-element topic="kaigi_on_rails.md">
+      <toc-element topic="2023.md">
+        <toc-element topic="N_+_1.md"/>
+        <toc-element topic="admin-architecture.md"/>
+        <toc-element topic="apm.md"/>
+        <toc-element topic="delegated_types.md"/>
+        <toc-element topic="hotwire.md"/>
+        <toc-element topic="how-to-connect-in-activerecord.md"/>
+        <toc-element topic="legacy-improvement.md"/>
+        <toc-element topic="older_server_thinking.md"/>
+        <toc-element topic="orthoses-rails.md"/>
+        <toc-element topic="rails-executor.md"/>
+        <toc-element topic="rails-update.md"/>
+        <toc-element topic="resolve-fat-model.md"/>
+        <toc-element topic="seeds.md"/>
+        <toc-element topic="simple-rails.md"/>
+        <toc-element topic="split-user-using-devise.md"/>
+        <toc-element topic="update-billion-records.md"/>
+        <toc-element topic="why-hate-current-attributes.md"/>
+        <toc-element topic="基調講演.md"/>
       </toc-element>
     </toc-element>
-    <toc-element topic="commands.md">
-      <toc-element topic="grep.md">
-        <toc-element topic="git-branch&#x3067;&#x4E0D;&#x8981;&#x306A;branch&#x3092;&#x524A;&#x9664;&#x3059;&#x308B;.md"/>
+    <toc-element topic="ordered_options.md"/>
+    <toc-element topic="questions.md"/>
+    <toc-element topic="stub-for-env.md"/>
+  </toc-element>
+  <toc-element topic="react.md">
+    <toc-element topic="react-dom.md"/>
+  </toc-element>
+  <toc-element topic="ruby.md">
+    <toc-element topic="defferent-from-private-and-protected.md"/>
+    <toc-element topic="gem.md">
+      <toc-element topic="fog-aws.md">
+        <toc-element topic="update-3-6-2-to-3-21-0.md"/>
       </toc-element>
-    </toc-element>
-    <toc-element topic="database.md">
-      <toc-element topic="firestore.md">
-        <toc-element topic="add-security-rules.md"/>
-        <toc-element topic="construction-database-scheme.md"/>
-        <toc-element topic="emulator-for-docker.md"/>
-        <toc-element topic="emulator-for-local.md"/>
-        <toc-element topic="where-documents.md"/>
+      <toc-element topic="rubocop.md">
+        <toc-element topic="Lint-AmbiguousBlockAssociation-bugs.md"/>
+        <toc-element topic="delay-execution.md"/>
       </toc-element>
-      <toc-element topic="locking-for-rdbms.md"/>
-      <toc-element topic="mysql.md">
-        <toc-element topic="case-sensitive.md"/>
-        <toc-element topic="null-comparison-in-where-clause.md"/>
-      </toc-element>
+      <toc-element topic="rubygems-api.md"/>
+      <toc-element topic="webdrivers.md"/>
     </toc-element>
-    <toc-element topic="docker.md">
-      <toc-element topic="multi-staged-build.md"/>
+    <toc-element topic="how-to-use-debug-in-rubymine.md"/>
+    <toc-element topic="rbs.md">
+      <toc-element topic="HashWithIndifferentAccess.md"/>
+      <toc-element topic="bugs-or-unknown.md"/>
+      <toc-element topic="different-from-instance-and-self.md"/>
+      <toc-element topic="investigation-for-check-method-in-steep.md"/>
+      <toc-element topic="regexp_parser.md"/>
+      <toc-element topic="syntax_memo.md"/>
+      <toc-element topic="codeReading.md"/>
     </toc-element>
-    <toc-element topic="english.md">
-      <toc-element topic="listening.md"/>
-      <toc-element topic="speaking.md"/>
-      <toc-element topic="vocabularies.md"/>
+    <toc-element topic="walk-along-the-c-side.md"/>
+  </toc-element>
+  <toc-element topic="rust.md">
+    <toc-element topic="about-else-in-match-syntax.md"/>
+    <toc-element topic="about-trait.md"/>
+    <toc-element topic="about-build-rs.md"/>
+    <toc-element topic="add-lifetime-to-impl.md"/>
+    <toc-element topic="args.md"/>
+    <toc-element topic="async.md"/>
+    <toc-element topic="handling.md"/>
+  </toc-element>
+  <toc-element topic="shopify.md">
+    <toc-element topic="externsions.md">
+      <toc-element topic="app-block.md"/>
     </toc-element>
-    <toc-element topic="gcp.md">
-      <toc-element topic="DepelogingApplicationWithGoogleClound.md">
-        <toc-element topic="memo.md"/>
-      </toc-element>
-      <toc-element topic="GoogleCloudFundamentals.md">
-        <toc-element topic="about-app-engine.md"/>
-        <toc-element topic="about-google-cloud.md"/>
-        <toc-element topic="about-logging-and-monitoring.md"/>
-        <toc-element topic="cloud-storage.md"/>
-        <toc-element topic="container-for-cloud.md"/>
-        <toc-element topic="deployment-for-cloud.md"/>
-        <toc-element topic="resource-and-access-for-cloud.md"/>
-        <toc-element topic="virtual-machine-and-network-for-cloud.md"/>
-      </toc-element>
-      <toc-element topic="SecuringAndIntegratingComponentsOfYourApplication.md"/>
-      <toc-element topic="base-big-query.md"/>
-      <toc-element topic="ci-cd.md"/>
-      <toc-element topic="database-service.md"/>
-      <toc-element topic="pcd_manual.md"/>
-      <toc-element topic="trial_exam.md">
-        <toc-element topic="formal_trial_exam.md"/>
-        <toc-element topic="pcd_vol1.md"/>
-        <toc-element topic="pcd_vol2.md"/>
-        <toc-element topic="pcd_vol3.md"/>
-      </toc-element>
-      <toc-element topic="tutorial.md"/>
-    </toc-element>
-    <toc-element topic="git.md">
-      <toc-element topic="actions.md">
-        <toc-element topic="changed-files.md"/>
-        <toc-element topic="mysql-on-rails-ci.md"/>
-      </toc-element>
-      <toc-element topic="command.md"/>
-      <toc-element topic="the-fast-version-control-system-git.md"/>
-    </toc-element>
-    <toc-element topic="golang.md">
-      <toc-element topic="array-vs-slice.md"/>
-      <toc-element topic="context.md"/>
-      <toc-element topic="delete-element-in-slice.md"/>
-      <toc-element topic="inheritence.md"/>
-      <toc-element topic="pointers.md"/>
-      <toc-element topic="printf.md"/>
-      <toc-element topic="random-string.md"/>
-      <toc-element topic="render-json-by-net-http.md"/>
-    </toc-element>
-    <toc-element topic="infra.md">
-      <toc-element topic="different-between-http-and-tcp.md"/>
-    </toc-element>
-    <toc-element topic="ios.md">
-      <toc-element topic="test.md"/>
-    </toc-element>
-    <toc-element topic="kubernetes.md">
-      <toc-element topic="tutorial.md"/>
-    </toc-element>
-    <toc-element topic="nextjs.md">
-      <toc-element topic="not-found.md"/>
-      <toc-element topic="use-client.md"/>
-    </toc-element>
-    <toc-element topic="rails.md">
-      <toc-element topic="1pt1yen-reset-point-demo.md"/>
-      <toc-element topic="activestorage.md"/>
-      <toc-element topic="attr-internal.md"/>
-      <toc-element topic="code-reading.md">
-        <toc-element topic="process-request.md"/>
-      </toc-element>
-      <toc-element topic="config_for.md"/>
-      <toc-element topic="filtering-secret-parameters.md"/>
-      <toc-element topic="kaigi_on_rails.md">
-        <toc-element topic="2023.md">
-          <toc-element topic="N_+_1.md"/>
-          <toc-element topic="admin-architecture.md"/>
-          <toc-element topic="apm.md"/>
-          <toc-element topic="delegated_types.md"/>
-          <toc-element topic="hotwire.md"/>
-          <toc-element topic="how-to-connect-in-activerecord.md"/>
-          <toc-element topic="legacy-improvement.md"/>
-          <toc-element topic="older_server_thinking.md"/>
-          <toc-element topic="orthoses-rails.md"/>
-          <toc-element topic="rails-executor.md"/>
-          <toc-element topic="rails-update.md"/>
-          <toc-element topic="resolve-fat-model.md"/>
-          <toc-element topic="seeds.md"/>
-          <toc-element topic="simple-rails.md"/>
-          <toc-element topic="split-user-using-devise.md"/>
-          <toc-element topic="update-billion-records.md"/>
-          <toc-element topic="why-hate-current-attributes.md"/>
-          <toc-element topic="&#x57FA;&#x8ABF;&#x8B1B;&#x6F14;.md"/>
-        </toc-element>
-      </toc-element>
-      <toc-element topic="ordered_options.md"/>
-      <toc-element topic="questions.md"/>
-      <toc-element topic="stub-for-env.md"/>
-    </toc-element>
-    <toc-element topic="react.md">
-      <toc-element topic="react-dom.md"/>
-    </toc-element>
-    <toc-element topic="ruby.md">
+    <toc-element topic="migrate-shopify-cli-3.md"/>
+  </toc-element>
+  <toc-element topic="web.md">
+    <toc-element topic="cors.md">
       <toc-element topic="base.md"/>
-      <toc-element topic="gem.md">
-        <toc-element topic="fog-aws.md">
-          <toc-element topic="update-3-6-2-to-3-21-0.md"/>
-        </toc-element>
-        <toc-element topic="rubocop.md">
-          <toc-element topic="Lint-AmbiguousBlockAssociation-bugs.md"/>
-          <toc-element topic="delay-execution.md"/>
-        </toc-element>
-        <toc-element topic="rubygems-api.md"/>
-        <toc-element topic="webdrivers.md"/>
-      </toc-element>
-      <toc-element topic="how-to-use-debug-in-rubymine.md"/>
-      <toc-element topic="rbs.md">
-        <toc-element topic="HashWithIndifferentAccess.md"/>
-        <toc-element topic="bugs-or-unknown.md"/>
-        <toc-element topic="different-from-instance-and-self.md"/>
-        <toc-element topic="investigation-for-check-method-in-steep.md"/>
-        <toc-element topic="regexp_parser.md"/>
-        <toc-element topic="syntax_memo.md"/>
-      </toc-element>
-      <toc-element topic="walk-along-the-c-side.md"/>
     </toc-element>
-    <toc-element topic="rust.md">
-      <toc-element topic="args.md"/>
-      <toc-element topic="async.md"/>
-      <toc-element topic="base.md"/>
-      <toc-element topic="handling.md"/>
-    </toc-element>
-    <toc-element topic="shopify.md">
-      <toc-element topic="externsions.md">
-        <toc-element topic="app-block.md"/>
-      </toc-element>
-      <toc-element topic="migrate-shopify-cli-3.md"/>
-    </toc-element>
-    <toc-element topic="web.md">
-      <toc-element topic="cors.md">
-        <toc-element topic="base.md"/>
-      </toc-element>
-      <toc-element topic="www-authenticate.md"/>
-    </toc-element>
+    <toc-element topic="www-authenticate.md"/>
   </toc-element>
 </instance-profile>
