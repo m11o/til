@@ -64,7 +64,7 @@ class Node
   end
 
   def create_xml_node(xml)
-    xml.send('toc-element', topic: "#{self.filename}.md") do
+    xml.send('toc-element', topic: "#{build_filename_with_extension(filename)}") do
       self.children.each do |child|
         child.create_xml_node(xml)
       end
